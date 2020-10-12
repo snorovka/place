@@ -1,0 +1,19 @@
+.popup__save {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  color: white;
+  background-color: black;
+  border-style: none;
+  max-width: 358px;
+  width: 100%;
+  margin: 48px 0 36px 0;
+  padding: 14px 0 18px 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.popup__save:hover {
+  cursor: url("../../../images/cursor.svg"), pointer;
+  opacity: .8;
+}

@@ -1,0 +1,15 @@
+@import url(./__image/card__image.css);
+@import url(./__caption/card__caption.css);
+@import url(./__title/card__title.css);
+@import url(./__like/card__like.css);
+@import url(./__delete/card__delete.css);
+
+.card {
+ box-sizing: border-box;
+ width: 282px;
+ padding: 0;
+ margin: 0;
+ border-radius: 10px;
+ color:black;
+ background-color:white;
+}

@@ -1,0 +1,17 @@
+.popup__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(43px, -43px);
+  background: url("../../../images/icon-close.svg") no-repeat center;
+  width: 47px;
+  height: 47px;
+  padding: 0;
+  border: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.popup__close:hover {
+  cursor: url("../../../images/cursor.svg"), pointer;
+  opacity: .6;
+}

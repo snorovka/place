@@ -1,0 +1,23 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/fonts.css);
+
+/*блок всей страницы*/
+@import url(../blocks/page/page.css);
+
+/*шапка*/
+@import url(../blocks/header/header.css);
+
+/*редактируемые профили*/
+@import url(../blocks/profile/profile.css);
+
+/*карточки*/
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/card/card.css);
+
+/*подвал*/
+@import url(../blocks/footer/footer.css);
+
+/*выпадающее окно редактирования*/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
