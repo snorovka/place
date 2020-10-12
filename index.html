@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Place</title>
+  <meta name="description" content="Project 'Place'">
+  <meta name="keywords" content="html, css">
+  <meta name="author" content="Yulia Zorina">
+</head>
+
+<body>
+  <div class="page">
+
+    <!--header-->
+    <header class="header">
+      <h1 class="header__logo">Place</h1>
+    </header>
+
+    <main class="content">
+
+      <!--profile-->
+      <section class="profile">
+        <figure class="profile__container">
+          <img class="profile__avatar" src="./images/cousteau.jpg" alt="Jacques-Yves Cousteau">
+          <figcaption class="profile__info">
+            <div class="profile__heading">
+              <h2 class="profile__name">Jacques-Yves Cousteau</h2>
+              <button type="button" class="profile__edit-button" aria-label="Edit"></button>
+            </div>
+            <p class="profile__job">Ocean researcher</p>
+          </figcaption>
+        </figure>
+        <button type="button" class="profile__add-button" aria-label="Add card"></button>
+      </section>
+      <!--end of profile-->
+
+      <!--cards gallerey-->
+        <section class="cards">
+        </section>
+
+        <!--card template-->
+        <template id="cardTemplate">
+          <article class="card">
+            <img class="card__image" alt="Place photo">
+            <div class="card__caption">
+              <h3 class="card__title"></h3>
+              <button type="button" class="card__like" aria-label="Add to favourites"></button>
+              <button type="button" class="card__delete" aria-label="Delete"></button>
+            </div>
+          </article>
+        </template>
+        <!--end of card template-->
+
+      <!--end of cards gallerey-->
+
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2020 Place</p>
+    </footer>
+    <!--end of footer-->
+
+
+   <!--форма добавления карточки в контейнер cards-->
+   <!--<form class="popup" id="card-add" name="card-add">
+    <div class="popup__container">
+      <button type="button" class="popup__close" aria-label="Закрыть окно"></button>
+      <h3 class="popup__title">Новое место</h3>
+      <input class="popup__text" type="text" placeholder="Название" id="card-name" name="card-name">
+      <input class="popup__text" type="text" placeholder="Ссылка на картинку" id="card-image" name="card-image">
+      <button class="popup__save">Создать</button>
+    </div>
+  </form>-->
+
+
+    <!--profile popup-->
+    <form class="popup" id="profile-edit" name="profile-edit">
+      <div class="popup__container">
+        <button type="button" class="popup__close" aria-label="Close popup"></button>
+        <h3 class="popup__title">Edit profile</h3>
+        <input class="popup__text" type="text" placeholder="Name" id="name" name="name">
+        <input class="popup__text" type="text" placeholder="Job" id="job" name="job">
+        <button class="popup__save">Save</button>
+      </div>
+    </form>
+
+
+
+  </div>
+
+  <script src="./scripts/main.js"></script>
+
+</body>
+</html>
